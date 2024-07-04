@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_titulo{
+    padding-left:100px;
+    padding-top:100px;
+    background-color: rgb(0, 0, 0);
+}
+.linea-horizonal{
+   background-color: rgb(255, 82, 212);
+}
+.items_menu{
+    padding-bottom: 50px;
+    padding-top:25px;
+    background-color: rgb(161, 161, 161);
+    
+}
+.footer_uno {
+    background-color: rgb(105, 105, 105);
+}
