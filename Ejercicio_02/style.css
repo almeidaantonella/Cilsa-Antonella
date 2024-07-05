@@ -1,0 +1,55 @@
+
+/* Normalización de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.imagenprincipal {
+    width: 100%;
+}
+.linea-horizonal{
+    background-color: rgb(37, 36, 71);
+ }
+.items_menu{
+    padding-bottom: 50px;
+    padding-top:25px;
+    background-color: rgb(161, 161, 161);
+    
+}
+.footer_uno {
+    background-color: rgb(37, 36, 71);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between; /* Espacio entre las columnas */
+    padding: 20px; /* Espaciado interior para separar del borde */
+}
+
+section, aside {
+    flex: 1; /* Ambos ocupan el mismo espacio */
+    
+}
+
+.columna1 {
+    background-color: rgb(162, 164, 165); /* Color de fondo para la columna 1 */
+    padding-bottom: 800px;
+   
+   
+
+}
+
+.columna2 {
+    background-color: rgb(226, 46, 91); /* Color de fondo para la columna 2 */
+    padding: 400px
+}
+
