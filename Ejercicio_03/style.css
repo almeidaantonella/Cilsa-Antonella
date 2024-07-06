@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.imagenprincipal {
+    width: 100%;
+}
+.titulo_encabezado{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 100px;
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.linea-horizonal{
+    background-color: rgb(37, 36, 71);
+}
+.items_menu{
+    padding-bottom: 10px;
+    padding-top: 25px;
+    background-color: rgb(243, 90, 161); 
+}
+ul,li {
+    margin-left: 10px;
+}
+.footer_uno {
+    background-color: rgb(37, 36, 71);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+section {
+    display: flex;
+    flex: 1;
+}
+
+.columna1, .columna3 {
+    flex: 1;
+    background-color: rgb(243, 90, 161); 
+}
+
+.columna2 {
+    flex: 2;
+    position: relative; /* Para usar el posicionamiento absoluto */
+    background-color: rgb(170, 168, 169);
+    padding: 20px; /* Añadir un padding para separar la línea de puntos */
+}
+
+.columna2::before,
+.columna2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ancho de la línea de puntos */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de la línea de puntos */
+}
+
+.columna2::before {
+    left: -1px; /* A la izquierda de la columna 2 */
+}
+
+.columna2::after {
+    right: -1px; /* A la derecha de la columna 2 */
+}
+
+.sub_titulo{
+
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 0, 212);
+}
